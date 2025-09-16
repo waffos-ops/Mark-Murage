@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border: #f8d7da;
+  padding: 20PX;
+}
+
+main {
+  background: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  max-width: 1200px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+table.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #333;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+thead th {
+
+  font-weight: bold;
+}
+
+th[rowspan] {
+  background: #f5f5f5;
+  font-weight: bold;
+}
+
+.break {
+  font-weight: bold;
+}
+
+.lunch {
+
+  font-weight: bold;
+}
+
+.form, .formtime {
+  font-weight: bold;
+}
